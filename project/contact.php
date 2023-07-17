@@ -25,7 +25,7 @@ if(isset($_POST['send'])){
       mysqli_query($conn, "INSERT INTO `message`(user_id, name, email, number, message) VALUES('$user_id', '$name', '$email', '$number', '$msg')") or die('query failed');
       $message[] = 'message sent successfully!';
    }
-
+/**asdasdasDASDASD */
 }
 
 ?>
